@@ -21,6 +21,13 @@ class Transfer
     else
       "Transaction rejected. Please check your account balance."
     end
+
+    def reject_transfer
+      if !valid?
+        "Transaction rejected. Please check your account balance."
+      end
+    end
+        
   end
 
 end
