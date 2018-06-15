@@ -3,5 +3,6 @@ class Transfer
     @transfer_from=transfer_from
     @transfer_to=transfer_to
     @amount=amount
+  end
 
 end
