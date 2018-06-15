@@ -19,7 +19,7 @@ class Transfer
       receiver.balance += amount
       self.status="complete"
     else
-      "Transaction rejected. Please check your account balance."
+      reject_transfer
     end
 
     def reject_transfer
@@ -27,7 +27,7 @@ class Transfer
         "Transaction rejected. Please check your account balance."
       end
     end
-        
+
   end
 
 end
